@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subscriber_ids",
+  "info": {
+    "singularName": "subscriber-id",
+    "pluralName": "subscriber-ids",
+    "displayName": "subscriber_id"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subscriber_id": {
+      "type": "string",
+      "minLength": 8,
+      "maxLength": 50,
+      "required": true,
+      "unique": true
+    },
+    "plan": {
+      "type": "enumeration",
+      "required": true,
+      "default": "basic",
+      "enum": [
+        "basic",
+        "pro",
+        "enterprise"
+      ]
+    },
+    "tokens_used": {
+      "type": "integer",
+      "required": true,
+      "default": 0,
+      "min": 0,
+      "max": 10000
+    },
+    "tokens_limit": {
+      "type": "integer",
+      "required": true,
+      "default": 100,
+      "min": 100,
+      "max": 10000
+    },
+    "is_active": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    }
+  }
+}

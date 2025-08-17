@@ -1,6 +1,10 @@
 MIT License
 
+<<<<<<< HEAD
 Copyright (c) 2025 IXome
+=======
+Copyright (c) 2025 bronn2120
+>>>>>>> 917ebca (Initial commit: Backend for IXome with Strapi CMS, Flask-SocketIO for chat agents (chat_agent.py), and core utilities (db.py, config.py). Handles agentic virtual teams for departments and subscriptions starting at basic 100 tokens, expanding to leads.)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

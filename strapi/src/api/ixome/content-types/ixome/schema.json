@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ixomes",
+  "info": {
+    "singularName": "ixome",
+    "pluralName": "ixomes",
+    "displayName": "ixome"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subscriber_id": {
+      "type": "string"
+    }
+  }
+}
